@@ -16,11 +16,14 @@ public :
 
 class lia :public seseorang {
     void pesan() {
-        cout << "Pesan dari Lia" << endl
+        cout << "Pesan dari Lia" << endl;
     }
 };
 
 int main()
 {
-    
+    seseorang* obyek;
+    joko a;
+    lia b;
+
 }
