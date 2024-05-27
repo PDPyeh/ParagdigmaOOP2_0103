@@ -10,15 +10,13 @@ public:
         cout << "orang dibuat dengan umur" << umur << "\n" << endl;
     }
 };
-class pekerja {
-public:
+class pekerja :public orang {
     pekerja(int pUmur) :orang(pUmur) {
         cout << "pekerja dibuat\n" << endl;
     }
 };
 
-class pelajar {
-public:
+class pelajar :public orang {
     pelajar(int pUmur) :orang(pUmur) {
         cout << "pekerja dibuat\n" << endl;
     }
